@@ -1,0 +1,119 @@
+.body{
+    background: #FFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    cursor: pointer;
+    
+
+.logo{
+    font-family: "Ralway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 116.67%;
+}
+header .navigation{
+    font-weight: 500;
+    color: #2E2F42;
+
+}
+header .link{
+    font-style: normal;
+}
+.navigation-list .link{
+    color: #2E2F42;
+}
+.navigation-list .link:hover{
+    color: #404BBF;
+    padding: bottom 28px; ;
+}
+
+
+/* line deco */
+.navigation-list .link:active{
+    color: #404BBF;
+}  
+.contact-list .link{
+    color: #434455;
+    /* font-style: normal; */
+}
+.contact-list .link:hover{
+    color: #404BBF;
+}
+/* line deco */
+.contact-list .link:active{
+    color: #404BBF;
+}
+.hero{
+    height: 600px;
+    background: #2E2F42;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.button{
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow:rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #404BBF;
+}
+
+.h1{
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+
+}
+.section-features .h2{
+    display: none;
+}
+
+.h2{
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    text-transform: uppercase;
+}
+
+.h3{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.our-team{
+    background:#F4F4FD;
+}
+.team-card{
+
+
+}
+.footer{
+    background: #2E2F42;
+    height: 312px;
+}
+.footer-text{
+    color: #F4F4FD;
+}
+
+.row-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 16px;
+}
+
