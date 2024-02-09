@@ -4,47 +4,57 @@
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 150%;
-    cursor: pointer;
+    line-height:1.5;
+    letter-spacing:0.32px;
 }
 
+ .link{
+    font-style: normal;
+    text-decoration: none;
+    }
+.link:hover{
+    text-decoration: none;
+}
 .logo{
     font-family: "Ralway", sans-serif;
     font-size: 18px;
+    font-weight: 700;
     text-transform: uppercase;
-    line-height: 116.67%;
-}
-header .navigation{
-    font-weight: 500;
-    color: #2E2F42;
+    line-height: 1.167;
+    letter-spacing: 0.54px;
+    text-decoration:none
 
 }
-header .link{
-    font-style: normal;
+.logoweb{
+    color: #4D5AE5;
+}
+.logostudio{
+    color: #F4F4FD;
+}
+
+header .navigation{
+    font-weight: 500;
 }
 .navigation-list .link{
     color: #2E2F42;
 }
 .navigation-list .link:hover{
     color: #404BBF;
-    padding: bottom 28px; ;
 }
-
-/* line deco */
 .navigation-list .link:active{
+    text-transform: none;
     color: #404BBF;
 }  
 .contact-list .link{
     color: #434455;
-    /* font-style: normal; */
 }
 .contact-list .link:hover{
     color: #404BBF;
 }
-/* line deco */
 .contact-list .link:active{
     color: #404BBF;
 }
+
 .hero{
     height: 600px;
     background: #2E2F42;
@@ -52,13 +62,14 @@ header .link{
     justify-content: center;
     text-align: center;
 }
+
 .button{
     border-radius: 4px;
     background: #4D5AE5;
-    box-shadow:rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.15);
     color: #FFF;
-    font-size: 16px;
-    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.64px;
     padding: 16px 32px;
     cursor: pointer;
 }
@@ -71,7 +82,8 @@ header .link{
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
-    line-height: 107.143%;
+    line-height: 1.071;
+    letter-spacing: 1.12px;
 
 }
 .section-features .h2{
@@ -82,30 +94,34 @@ header .link{
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 111.111%;
-    text-transform: uppercase;
+    line-height: 1.111;
+    text-transform: capitalize;
+    letter-spacing: 0.72px;
 }
 
 .h3{
-    color: #2E2F42;
+    color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 
 .our-team{
     background:#F4F4FD;
 }
-/* .team-card{
-
-
-} */
+.team-card{
+    text-align: center;
+}
+.portfolio-card{
+    text-align:left;
+}
 .footer{
-    background: #2E2F42;
+    background:#2E2F42;
     height: 312px;
 }
 .footer-text{
-    color: #F4F4FD;
+    color:#F4F4FD;
 }
 
 .row-list{
