@@ -136,12 +136,9 @@ header .navigation {
 .section- .list-features{
     letter-spacing: 0.02em;
 }
-
-
 .our-team {
     background-color: #ffffff;
 }
-
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
@@ -149,7 +146,6 @@ header .navigation {
 .list-team .titlethree{
     line-height: 1.20;
 }
-
 .portfolio{
     background-color: #FFFFFF;
 }
@@ -160,11 +156,9 @@ header .navigation {
 .portfolio-card .titlethree {
     line-height: 1.20;
 }
-
 .footer {
     background-color: #2E2F42;
 }
-
 .footer .footer-text {
     color: #F4F4FD;
 }
