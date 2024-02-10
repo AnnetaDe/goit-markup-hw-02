@@ -54,10 +54,12 @@ header .navigation {
     text-transform: none;
     color: #404BBF;
 }
+
 .navigation-list .link:focus {
     text-transform: none;
     color: #404BBF;
 }
+
 .contact {
     font-style: normal;
 }
@@ -83,6 +85,7 @@ header .navigation {
 .hero {
     background: #2E2F42;
 }
+
 .hero .titleone {
     text-align: center;
 }
@@ -106,7 +109,7 @@ header .navigation {
     background: #404BBF;
 }
 
-.titleone{
+.titleone {
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
@@ -123,16 +126,6 @@ header .navigation {
     letter-spacing: 0.72px;
 }
 
-.section-features {
-    line-height: 1.5;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.section-features .titletwo {
-    line-height: 1.20;
-}
-
 .titlethree {
     color: #2E2F42;
     font-size: 20px;
@@ -141,22 +134,45 @@ header .navigation {
     letter-spacing: 0.4px;
 }
 
-.our-team{
+.section-features .titletwo {
+    line-height: 1.20;
+}
+
+.list-features {
+    line-height: 1.5;
+    letter-spacing: 0.02px;
+    color: #434455;
+    font-size: 16px;
+}
+
+.feature.titlethree {
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.our-team {
     background: #F4F4FD;
+}
+
+.list-team {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFFFFF;
 }
+
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
 }
-.our-team.titlethree{
+
+.team-card.titlethree {
     line-height: 1.20;
 }
+
 .team-card {
-    background: #FFF;
+    font-size: 16;
 }
 
 .portfolio {
@@ -169,19 +185,26 @@ header .navigation {
     text-align: center;
     line-height: 1.11;
 }
-.portfolio .titlethree{
-    line-height: 1.20;
+
+.list-portfolio {
+    background-color: #FFF;
 }
-.portfolio-card: {
-    background-color:#FFF;
+
+.portfolio-card .titlethree {
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-card {
+    line-height: 1.5;
+    color: #434455;
 }
 
 .footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
 }
 
-.footer-text {
+.footer .footer-text {
     color: #F4F4FD;
 }
 
