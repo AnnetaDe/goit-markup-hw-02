@@ -181,7 +181,6 @@ header .navigation {
     line-height: 1.5;
     letter-spacing:0.02em;
     color: #434455;
-    background-color: #FFFFFF;
 }
 
 .portfolio .titletwo {
@@ -189,7 +188,9 @@ header .navigation {
     line-height: 1.11;
 }
 
-
+.portfolio-card{
+    background-color: #FFFFFF;
+}
 .portfolio-card .titlethree {
     line-height: 1.20;
     letter-spacing: 0.02em;
