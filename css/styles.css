@@ -130,16 +130,16 @@ header .navigation {
     line-height: 1.11;
 }
 
-.feature .titlethree {
+.section-features .titlethree {
     line-height: 1.20;
 }
-
-.our-team {
-    background: #F4F4FD;
+.section- .list-features{
+    letter-spacing: 0.02em;
 }
 
-.list-team {
-    background-color: #FFFFFF;
+
+.our-team {
+    background-color: #ffffff;
 }
 
 .our-team .titletwo {
