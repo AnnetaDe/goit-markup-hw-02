@@ -156,6 +156,8 @@ header .navigation {
 
 .list-team .team-card{
     background-color: #FFFFFF;
+}
+.team-card{
     font-size: 16px;
 }
 .portfolio{
