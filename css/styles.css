@@ -114,7 +114,7 @@ header .navigation {
     letter-spacing: 1.12px;
 }
 
-.h2-title {
+.titletwo {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -129,7 +129,7 @@ header .navigation {
     color: #434455;
 }
 
-.h3-title {
+.titlethree {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -144,11 +144,11 @@ header .navigation {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.our-team .h2-title {
+.our-team .titletwo {
     text-align: center;
     line-height: 1.11;
 }
-.our-team.h3-title{
+.our-team.titlethree{
     line-height: 1.20;
 }
 .team-card {
@@ -161,18 +161,19 @@ header .navigation {
     color: #434455;
 }
 
-.portfolio .h2-title {
+.portfolio .titletwo {
     text-align: center;
     line-height: 1.11;
 }
-.portfolio .h3-title{
+.portfolio .titlethree{
     line-height: 1.20;
 .portfolio-card {
     background: #FFF;
 }
 
 .footer {
-    background: #2E2F42;
+    background-color: #2E2F42;
+    color: #F4F4FD;
 }
 
 .footer-text {
