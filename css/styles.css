@@ -137,7 +137,7 @@ header .navigation {
     letter-spacing: 0.4px;
 }
 
-.our-team .row-list{
+.our-team{
     background: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
@@ -146,7 +146,10 @@ header .navigation {
 }
 .our-team .h2-title {
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.11;
+}
+.our-team.h3-title{
+    line-height: 1.20;
 }
 .team-card {
     background: #FFF;
@@ -160,8 +163,10 @@ header .navigation {
 
 .portfolio .h2-title {
     text-align: center;
+    line-height: 1.11;
 }
-
+.portfolio .h3-title{
+    line-height: 1.20;
 .portfolio-card {
     background: #FFF;
 }
