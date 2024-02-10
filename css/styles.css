@@ -11,10 +11,7 @@ ul{
     line-height: 1.5;
     font-size: 16px;
 }
-.list-features .feature, .list-team .team-card, .list-portfolio .portfolio-card {
-    line-height: 1.5;
-    font-size: 16px;
-}
+
 .link {
     font-style: normal;
     text-decoration: none;
@@ -34,15 +31,12 @@ ul{
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-
 .header .logostudio {
     color: #2E2F42;
 }
-
 .logostudio {
     color: #F4F4FD;
 }
-
 header .navigation {
     font-weight: 500;
 }
@@ -84,15 +78,12 @@ header .navigation {
 .contact-list .link:focus {
     color: #404BBF;
 }
-
 .hero {
     background: #2E2F42;
 }
-
 .hero .titleone {
     text-align: center;
 }
-
 .button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -103,15 +94,12 @@ header .navigation {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-
 .button:hover {
     background: #404BBF;
 }
-
 .button:focus {
     background: #404BBF;
 }
-
 .titleone {
     color: #FFF;
     font-size: 56px;
@@ -119,7 +107,6 @@ header .navigation {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-
 .titletwo {
     color: #2E2F42;
     font-size: 36px;
@@ -128,7 +115,6 @@ header .navigation {
     text-transform: capitalize;
     letter-spacing: 0.02em;
 }
-
 .titlethree {
     color: #2E2F42;
     font-size: 20px;
@@ -136,22 +122,18 @@ header .navigation {
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
-
 .section-features .list-features .titlethree {
     line-height: 1.20;
 }
-
 .our-team {
     background-color: #F4F4FD;
 }
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
-    letter-spacing: 0.02em;
 }
 .list-team .titlethree{
     line-height: 1.20;
-    letter-spacing: 0.02em;
 }
 
 .list-team .team-card{
