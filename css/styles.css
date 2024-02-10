@@ -11,7 +11,7 @@ ul{
     line-height: 1.5;
     font-size: 16px;
 }
-.list-features, .list-team, .list-portfolio {
+.list-features .feature, .list-team .team-card, .list-portfolio .portfolio-card {
     line-height: 1.5;
     font-size: 16px;
 }
