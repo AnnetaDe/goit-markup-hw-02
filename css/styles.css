@@ -134,20 +134,20 @@ header .navigation {
     letter-spacing: 0.4px;
 }
 
-.section-features .titletwo {
-    line-height: 1.20;
-}
 
 .list-features {
     line-height: 1.5;
     letter-spacing: 0.02px;
-    color: #434455;
-    font-size: 16px;
 }
 
 .feature.titlethree {
     line-height: 1.20;
     letter-spacing: 0.02em;
+}
+.feature{
+    line-height: 1.5;
+    color: #434455;
+    font-size: 16px;
 }
 
 .our-team {
@@ -162,22 +162,24 @@ header .navigation {
     background-color: #FFFFFF;
 }
 
+
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
 }
-
-.team-card.titlethree {
+.list-team .titlethree{
     line-height: 1.20;
+    letter-spacing: 0.02em;
 }
-
 .team-card {
-    font-size: 16;
+    line-height: 1.5;
+    color: #434455;
+    font-size: 16px;
 }
 
 .portfolio {
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing:0.02em;
     color: #434455;
 }
 
@@ -195,7 +197,7 @@ header .navigation {
     letter-spacing: 0.02em;
 }
 
-.portfolio-card {
+.portfolio .portfolio-card {
     line-height: 1.5;
     color: #434455;
 }
