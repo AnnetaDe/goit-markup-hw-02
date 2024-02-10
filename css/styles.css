@@ -5,7 +5,10 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+}
+ul{
+    line-height: 1.5;
 }
 
 .link {
@@ -30,7 +33,6 @@
 
 .header .logostudio {
     color: #2E2F42;
-    letter-spacing: 0.02em;
 }
 
 .logostudio {
@@ -39,7 +41,6 @@
 
 header .navigation {
     font-weight: 500;
-    line-height: 1.5;
 }
 
 .navigation-list .link {
@@ -66,8 +67,6 @@ header .navigation {
 
 .contact-list .link {
     color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .contact-list .link:hover {
@@ -97,7 +96,7 @@ header .navigation {
     background: #4D5AE5;
     color: #FFF;
     font-weight: 500;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -114,7 +113,6 @@ header .navigation {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
 }
 
 .titletwo {
@@ -123,7 +121,6 @@ header .navigation {
     font-weight: 700;
     line-height: 1.20;
     text-transform: capitalize;
-    letter-spacing: 0.72px;
 }
 
 .titlethree {
@@ -131,23 +128,10 @@ header .navigation {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.11;
-    letter-spacing: 0.4px;
 }
 
-
-.list-features {
-    line-height: 1.5;
-    letter-spacing: 0.02px;
-}
-
-.feature.titlethree {
+.feature .titlethree {
     line-height: 1.20;
-    letter-spacing: 0.02em;
-}
-.feature{
-    line-height: 1.5;
-    color: #434455;
-    font-size: 16px;
 }
 
 .our-team {
@@ -155,13 +139,8 @@ header .navigation {
 }
 
 .list-team {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
     background-color: #FFFFFF;
 }
-
 
 .our-team .titletwo {
     text-align: center;
@@ -169,36 +148,17 @@ header .navigation {
 }
 .list-team .titlethree{
     line-height: 1.20;
-    letter-spacing: 0.02em;
-}
-.team-card {
-    line-height: 1.5;
-    color: #434455;
-    font-size: 16px;
 }
 
-.portfolio {
-    line-height: 1.5;
-    letter-spacing:0.02em;
-    color: #434455;
+.portfolio{
+    background-color: #FFFFFF;
 }
-
 .portfolio .titletwo {
     text-align: center;
     line-height: 1.11;
 }
-
-.portfolio-card{
-    background-color: #FFFFFF;
-}
 .portfolio-card .titlethree {
     line-height: 1.20;
-    letter-spacing: 0.02em;
-}
-
-.portfolio .portfolio-card {
-    line-height: 1.5;
-    color: #434455;
 }
 
 .footer {
@@ -208,4 +168,3 @@ header .navigation {
 .footer .footer-text {
     color: #F4F4FD;
 }
-
