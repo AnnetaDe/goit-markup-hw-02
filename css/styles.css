@@ -7,7 +7,9 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-ul{
+
+/* List */
+ul {
     line-height: 1.5;
     font-size: 16px;
 }
@@ -31,12 +33,15 @@ ul{
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
 .header .logostudio {
     color: #2E2F42;
 }
+
 .logostudio {
     color: #F4F4FD;
 }
+
 header .navigation {
     font-weight: 500;
 }
@@ -78,12 +83,15 @@ header .navigation {
 .contact-list .link:focus {
     color: #404BBF;
 }
+
 .hero {
     background: #2E2F42;
 }
+
 .hero .titleone {
     text-align: center;
 }
+
 .button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -94,12 +102,15 @@ header .navigation {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
+
 .button:hover {
     background: #404BBF;
 }
+
 .button:focus {
     background: #404BBF;
 }
+
 .titleone {
     color: #FFF;
     font-size: 56px;
@@ -107,6 +118,7 @@ header .navigation {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
 .titletwo {
     color: #2E2F42;
     font-size: 36px;
@@ -115,6 +127,7 @@ header .navigation {
     text-transform: capitalize;
     letter-spacing: 0.02em;
 }
+
 .titlethree {
     color: #2E2F42;
     font-size: 20px;
@@ -122,39 +135,49 @@ header .navigation {
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
+
 .section-features .list-features .titlethree {
     line-height: 1.20;
 }
+
 .our-team {
     background-color: #F4F4FD;
 }
+
 .our-team .titletwo {
     text-align: center;
     line-height: 1.11;
 }
-.list-team .titlethree{
+
+.list-team .titlethree {
     line-height: 1.20;
 }
 
-.list-team .team-card{
+.list-team .team-card {
     background-color: #FFFFFF;
 }
-.team-card{
+
+.team-card {
     font-size: 16px;
 }
-.portfolio{
+
+.portfolio {
     background-color: #FFFFFF;
 }
+
 .portfolio .titletwo {
     text-align: center;
     line-height: 1.11;
 }
+
 .portfolio-card .titlethree {
     line-height: 1.20;
 }
+
 .footer {
     background-color: #2E2F42;
 }
+
 .footer .footer-text {
     color: #F4F4FD;
 }
